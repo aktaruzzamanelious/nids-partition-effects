@@ -1,0 +1,23 @@
+# Raw datasets: download them with the commands in data/README.md
+data/raw/
+
+# Large frozen outputs: they are in the v1.0.0 release archive (see README.md)
+results/raw/preds/
+results/raw/splits/*.npz
+*.zip
+
+# Files the scripts write when they are run again
+results/smoke/
+logs/preflight.json
+logs/errors.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

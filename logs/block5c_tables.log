@@ -1,0 +1,11 @@
+[23:32:03] T1 category assertions 1 to 6 passed
+[23:32:03] wrote results/tables/T1_composition.csv, 16 rows
+[23:32:03] wrote results/tables/T1_category_composition.csv, 381 rows
+[23:32:03] wrote results/tables/T2_classifiers.csv, 10 rows
+[23:32:03] wrote results/tables/T3_per_model.csv, 80 rows
+[23:32:03] wrote results/tables/T4_rank_side_by_side.csv, 22 rows
+[23:32:03] wrote results/tables/T5_between_arm.csv, 8 rows
+[23:32:03] wrote results/tables/T6_within_arm.csv, 24 rows
+[23:32:03] wrote results/tables/T7_robustness.csv, 24 rows
+[23:32:03] wrote results/tables/T8_distribution_shift.csv, 6 rows
+[23:32:03] wrote results/tables/previews.md

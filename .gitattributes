@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte as committed.
+# results/SHA256SUMS lists exact file hashes, so Git must never change line endings.
+* -text

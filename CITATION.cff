@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite this repository and the thesis listed under references."
+title: "Separating Partition, Leakage and Data Effects in Network Intrusion Detection Benchmarks: Code and Frozen Results"
+abstract: "Code, frozen results and verification files for a study of how much of the difficulty of the official train/test splits of UNSW-NB15 and NSL-KDD comes from the split itself rather than from the attacks. The same records are split in four ways (official split, repeated cross-validation, and two size-matched random splits), with ten untuned classifiers, 1,100 fits and a seed noise floor for ranking changes."
+type: software
+authors:
+  - family-names: "Elious"
+    given-names: "Aktaruzzaman"
+    orcid: "https://orcid.org/0009-0009-6143-5183"
+    affiliation: "Daffodil International University"
+  - family-names: "Sadi"
+    given-names: "A. H. M. Saifullah"
+    affiliation: "Daffodil International University"
+repository-code: "https://github.com/aktaruzzamanelious/nids-partition-effects"
+version: "1.0.0"
+date-released: "2026-10-19"
+keywords:
+  - network intrusion detection
+  - UNSW-NB15
+  - NSL-KDD
+  - train-test split
+  - data leakage
+  - classifier ranking
+  - reproducibility
+references:
+  - type: thesis
+    title: "Separating Partition, Leakage and Data Effects in Network Intrusion Detection Benchmarks: A Size-Matched Control for Classifier Rank Stability"
+    authors:
+      - family-names: "Elious"
+        given-names: "Aktaruzzaman"
+        orcid: "https://orcid.org/0009-0009-6143-5183"
+    thesis-type: "MSc thesis"
+    institution:
+      name: "Daffodil International University"
+      city: "Dhaka"
+      country: "BD"
+    year: 2026
+    month: 10

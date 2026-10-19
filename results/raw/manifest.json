@@ -1,0 +1,65 @@
+{
+  "mode": "full",
+  "started_at": "2026-09-06T00:56:07",
+  "ended_at": "2026-09-06T03:21:09",
+  "hostname": "srv1655968",
+  "python": "3.12.3",
+  "datasets": [
+    "unsw",
+    "nslkdd"
+  ],
+  "cpu": "AMD EPYC 9354P 32-Core Processor",
+  "versions": {
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.1"
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2"
+  },
+  "preflight": {
+    "mode": "full",
+    "utc": "2026-09-05T23:56:07Z",
+    "free_disk_gb": 69.21,
+    "mem_total_mb": 7940.9,
+    "mem_available_mb": 5804.7,
+    "hostname": "srv1655968",
+    "cpu_model": "AMD EPYC 9354P 32-Core Processor",
+    "cpu_count": 2,
+    "python": "3.12.3",
+    "versions": {
+      "scikit-learn": "1.9.0",
+      "xgboost": "3.4.1",
+      "lightgbm": "4.7.0",
+      "scipy": "1.18.1",
+      "pandas": "3.0.5",
+      "numpy": "2.5.2",
+      "matplotlib": "3.11.1"
+    },
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2"
+    },
+    "rss_mb_sampled": 162.0
+  },
+  "pipeline_sha256": {
+    "src/verify.py": "4e0f2b14a6b7505105f0512fc43d0f0090bb5f1da6e6c82cfd1a22705c65cd6c",
+    "src/preprocess.py": "5340d364711d354640c0c97c07cf23cd3398b0e0af5e88d6c2dac0030b061068",
+    "src/experiment.py": "26294dba0d452fc58e774420b3faa11281c5a3ae240cd7b07cc5b0a0fa2a8ee7"
+  },
+  "data_sha256": {
+    "KDDTest+.txt": "fa46b0935342616aa83b7c2578db355b6a7aaabbc492248172c7a1e8b7ab8f84",
+    "KDDTrain+.txt": "1b86d2f957b33082081bba410fe129b475efebcc13c9014c3f447c8271aadf95",
+    "UNSW_NB15_testing-set.csv": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559",
+    "UNSW_NB15_training-set.csv": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa"
+  }
+}

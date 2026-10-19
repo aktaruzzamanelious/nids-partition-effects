@@ -1,0 +1,10 @@
+{
+  "n_features": 106,
+  "n_numeric": 38,
+  "n_encoded": 68,
+  "rare_kept": {
+    "protocol_type": 3,
+    "service": 55,
+    "flag": 8
+  }
+}

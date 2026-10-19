@@ -1,0 +1,331 @@
+{
+  "file": "KDDTest+.txt",
+  "source": "Two mirrors, github.com/jmnwong/NSL-KDD-Dataset, stated to be a Wayback Machine backup of the original nsl.cs.unb.ca site, and github.com/defcom17/NSL_KDD. The two produced byte-identical files. The original ISCX host no longer distributes the dataset.",
+  "source_mirrors": [
+    "https://github.com/jmnwong/NSL-KDD-Dataset",
+    "https://github.com/defcom17/NSL_KDD"
+  ],
+  "mirrors_byte_identical": true,
+  "licence": "The NSL-KDD licence permits redistribution and mirroring provided the dataset and Tavallaee et al. are cited.",
+  "citation_required": "Tavallaee et al., plus the dataset itself",
+  "downloaded_in_block": "acceptance test prior to Block 1C",
+  "size_bytes": 3441513,
+  "sha256": "fa46b0935342616aa83b7c2578db355b6a7aaabbc492248172c7a1e8b7ab8f84",
+  "sha256_expected": "fa46b0935342616aa83b7c2578db355b6a7aaabbc492248172c7a1e8b7ab8f84",
+  "sha256_match": true,
+  "row_count": 22544,
+  "row_count_expected": 22544,
+  "field_count": 43,
+  "field_count_expected": 43,
+  "field_widths_observed": [
+    43
+  ],
+  "header_row": null,
+  "delimiter": ",",
+  "column_names_in_order": [
+    "duration",
+    "protocol_type",
+    "service",
+    "flag",
+    "src_bytes",
+    "dst_bytes",
+    "land",
+    "wrong_fragment",
+    "urgent",
+    "hot",
+    "num_failed_logins",
+    "logged_in",
+    "num_compromised",
+    "root_shell",
+    "su_attempted",
+    "num_root",
+    "num_file_creations",
+    "num_shells",
+    "num_access_files",
+    "num_outbound_cmds",
+    "is_host_login",
+    "is_guest_login",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "srv_serror_rate",
+    "rerror_rate",
+    "srv_rerror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "srv_diff_host_rate",
+    "dst_host_count",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_same_src_port_rate",
+    "dst_host_srv_diff_host_rate",
+    "dst_host_serror_rate",
+    "dst_host_srv_serror_rate",
+    "dst_host_rerror_rate",
+    "dst_host_srv_rerror_rate",
+    "attack_name",
+    "difficulty_level"
+  ],
+  "column_names_note": "Validated against the data on 2026-09-05 by the seven checks of decision P10 in Block 3B, not taken from a published source. Two published sources disagree about the position of flag, so the data decided. Checks run on KDDTrain+.txt: position 1 holds exactly tcp, udp, icmp; position 2 holds 70 distinct values; position 3 holds exactly 11 values including SF, S0 and REJ; land, logged_in, is_host_login and is_guest_login hold only 0 and 1; all fifteen _rate columns lie in 0 to 1 inclusive; duration, src_bytes and dst_bytes hold no negative value; count, srv_count, dst_host_count and dst_host_srv_count hold no negative value. All seven passed.",
+  "first_two_raw_lines": [
+    "0,tcp,private,REJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,10,0.00,0.00,1.00,1.00,0.04,0.06,0.00,255,10,0.04,0.06,0.00,0.00,0.00,0.00,1.00,1.00,neptune,21",
+    "0,tcp,private,REJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,1,0.00,0.00,1.00,1.00,0.01,0.06,0.00,255,1,0.00,0.06,0.00,0.00,0.00,0.00,1.00,1.00,neptune,21"
+  ],
+  "binary_label_rule": "1 where index 41 is not the string normal, else 0",
+  "class_balance": {
+    "label_1_attack": 12833,
+    "label_1_pct": 56.92,
+    "label_0_normal": 9711,
+    "label_0_pct": 43.08
+  },
+  "attack_name_counts": {
+    "normal": 9711,
+    "neptune": 4657,
+    "guess_passwd": 1231,
+    "mscan": 996,
+    "warezmaster": 944,
+    "apache2": 737,
+    "satan": 735,
+    "processtable": 685,
+    "smurf": 665,
+    "back": 359,
+    "snmpguess": 331,
+    "saint": 319,
+    "mailbomb": 293,
+    "snmpgetattack": 178,
+    "portsweep": 157,
+    "ipsweep": 141,
+    "httptunnel": 133,
+    "nmap": 73,
+    "pod": 41,
+    "buffer_overflow": 20,
+    "multihop": 18,
+    "named": 17,
+    "ps": 15,
+    "sendmail": 14,
+    "xterm": 13,
+    "rootkit": 13,
+    "teardrop": 12,
+    "xlock": 9,
+    "land": 7,
+    "xsnoop": 4,
+    "ftp_write": 3,
+    "loadmodule": 2,
+    "worm": 2,
+    "perl": 2,
+    "sqlattack": 2,
+    "udpstorm": 2,
+    "phf": 2,
+    "imap": 1
+  },
+  "difficulty_level_min": 0,
+  "difficulty_level_max": 21,
+  "categorical_indices": {
+    "protocol_type": 1,
+    "service": 2,
+    "flag": 3
+  },
+  "assertions": {
+    "sha256": "PASS",
+    "row_count": "PASS",
+    "field_count": "PASS",
+    "binary_attack": "PASS",
+    "binary_normal": "PASS"
+  },
+  "column_names_validated_on": "2026-09-05",
+  "column_names_validation_checks": [
+    {
+      "check": "1 position 1 has exactly 3 distinct values, all in {tcp,udp,icmp}",
+      "result": "PASS",
+      "observed": {
+        "n_distinct": 3,
+        "values": [
+          "icmp",
+          "tcp",
+          "udp"
+        ]
+      }
+    },
+    {
+      "check": "2 position 2 has more than 60 distinct values",
+      "result": "PASS",
+      "observed": {
+        "n_distinct": 70
+      }
+    },
+    {
+      "check": "3 position 3 has exactly 11 distinct values, set contains SF, S0, REJ",
+      "result": "PASS",
+      "observed": {
+        "n_distinct": 11,
+        "values": [
+          "OTH",
+          "REJ",
+          "RSTO",
+          "RSTOS0",
+          "RSTR",
+          "S0",
+          "S1",
+          "S2",
+          "S3",
+          "SF",
+          "SH"
+        ]
+      }
+    },
+    {
+      "check": "4 land, logged_in, is_host_login, is_guest_login hold only 0 and 1",
+      "result": "PASS",
+      "observed": {
+        "land": [
+          0,
+          1
+        ],
+        "logged_in": [
+          0,
+          1
+        ],
+        "is_host_login": [
+          0,
+          1
+        ],
+        "is_guest_login": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "check": "5 all fifteen _rate columns lie in [0,1] inclusive",
+      "result": "PASS",
+      "observed": {
+        "n_rate_columns": 15,
+        "serror_rate": [
+          0.0,
+          1.0
+        ],
+        "srv_serror_rate": [
+          0.0,
+          1.0
+        ],
+        "rerror_rate": [
+          0.0,
+          1.0
+        ],
+        "srv_rerror_rate": [
+          0.0,
+          1.0
+        ],
+        "same_srv_rate": [
+          0.0,
+          1.0
+        ],
+        "diff_srv_rate": [
+          0.0,
+          1.0
+        ],
+        "srv_diff_host_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_same_srv_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_diff_srv_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_same_src_port_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_srv_diff_host_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_serror_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_srv_serror_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_rerror_rate": [
+          0.0,
+          1.0
+        ],
+        "dst_host_srv_rerror_rate": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "6 duration, src_bytes, dst_bytes hold no negative value",
+      "result": "PASS",
+      "observed": {
+        "duration": 0.0,
+        "src_bytes": 0.0,
+        "dst_bytes": 0.0
+      }
+    },
+    {
+      "check": "7 count, srv_count, dst_host_count, dst_host_srv_count hold no negative value",
+      "result": "PASS",
+      "observed": {
+        "count": 0.0,
+        "srv_count": 0.0,
+        "dst_host_count": 0.0,
+        "dst_host_srv_count": 0.0
+      }
+    }
+  ],
+  "column_names_previous_positional": [
+    "f0",
+    "protocol_type",
+    "service",
+    "flag",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f9",
+    "f10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15",
+    "f16",
+    "f17",
+    "f18",
+    "f19",
+    "f20",
+    "f21",
+    "f22",
+    "f23",
+    "f24",
+    "f25",
+    "f26",
+    "f27",
+    "f28",
+    "f29",
+    "f30",
+    "f31",
+    "f32",
+    "f33",
+    "f34",
+    "f35",
+    "f36",
+    "f37",
+    "f38",
+    "f39",
+    "f40",
+    "attack_name",
+    "difficulty_level"
+  ]
+}

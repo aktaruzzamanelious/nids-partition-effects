@@ -1,0 +1,348 @@
+{
+  "five_class": {
+    "train": {
+      "unmapped_names": [],
+      "n_disputed": 0,
+      "httptunnel_as_R2L": {
+        "Normal": 67343,
+        "DoS": 45927,
+        "Probe": 11656,
+        "R2L": 995,
+        "U2R": 52
+      },
+      "httptunnel_as_U2R": {
+        "Normal": 67343,
+        "DoS": 45927,
+        "Probe": 11656,
+        "R2L": 995,
+        "U2R": 52
+      },
+      "expected": {
+        "Normal": 67343,
+        "DoS": 45927,
+        "Probe": 11656,
+        "R2L": 995,
+        "U2R": 52
+      },
+      "match_as_R2L": true,
+      "match_as_U2R": true,
+      "attack_name_counts": {
+        "normal": 67343,
+        "neptune": 41214,
+        "satan": 3633,
+        "ipsweep": 3599,
+        "portsweep": 2931,
+        "smurf": 2646,
+        "nmap": 1493,
+        "back": 956,
+        "teardrop": 892,
+        "warezclient": 890,
+        "pod": 201,
+        "guess_passwd": 53,
+        "buffer_overflow": 30,
+        "warezmaster": 20,
+        "land": 18,
+        "imap": 11,
+        "rootkit": 10,
+        "loadmodule": 9,
+        "ftp_write": 8,
+        "multihop": 7,
+        "phf": 4,
+        "perl": 3,
+        "spy": 2
+      }
+    },
+    "test": {
+      "unmapped_names": [],
+      "n_disputed": 133,
+      "httptunnel_as_R2L": {
+        "Normal": 9711,
+        "DoS": 7458,
+        "Probe": 2421,
+        "R2L": 2887,
+        "U2R": 67
+      },
+      "httptunnel_as_U2R": {
+        "Normal": 9711,
+        "DoS": 7458,
+        "Probe": 2421,
+        "R2L": 2754,
+        "U2R": 200
+      },
+      "expected": {
+        "Normal": 9711,
+        "DoS": 7458,
+        "Probe": 2421,
+        "R2L": 2754,
+        "U2R": 200
+      },
+      "match_as_R2L": false,
+      "match_as_U2R": true,
+      "attack_name_counts": {
+        "normal": 9711,
+        "neptune": 4657,
+        "guess_passwd": 1231,
+        "mscan": 996,
+        "warezmaster": 944,
+        "apache2": 737,
+        "satan": 735,
+        "processtable": 685,
+        "smurf": 665,
+        "back": 359,
+        "snmpguess": 331,
+        "saint": 319,
+        "mailbomb": 293,
+        "snmpgetattack": 178,
+        "portsweep": 157,
+        "ipsweep": 141,
+        "httptunnel": 133,
+        "nmap": 73,
+        "pod": 41,
+        "buffer_overflow": 20,
+        "multihop": 18,
+        "named": 17,
+        "ps": 15,
+        "sendmail": 14,
+        "xterm": 13,
+        "rootkit": 13,
+        "teardrop": 12,
+        "xlock": 9,
+        "land": 7,
+        "xsnoop": 4,
+        "ftp_write": 3,
+        "loadmodule": 2,
+        "worm": 2,
+        "perl": 2,
+        "sqlattack": 2,
+        "udpstorm": 2,
+        "phf": 2,
+        "imap": 1
+      }
+    }
+  },
+  "task2": {
+    "CS-A": {
+      "n_cols": 43,
+      "d_tr": 0,
+      "p_tr": 0.0,
+      "dist_tr": 0,
+      "d_te": 0,
+      "p_te": 0.0,
+      "dist_te": 0,
+      "d_me": 610,
+      "p_me": 0.41072739147707,
+      "dist_me": 610,
+      "n_te_in_tr": 610,
+      "p_te_in_tr": 2.705819730305181,
+      "n_tr_in_te": 610,
+      "p_tr_in_te": 0.48423074785866815,
+      "dist_shared": 610,
+      "ov_attack": 1046,
+      "ov_normal": 174,
+      "ov_attack_te": 523,
+      "ov_normal_te": 87
+    },
+    "CS-B": {
+      "n_cols": 41,
+      "d_tr": 16,
+      "p_tr": 0.012701134370063425,
+      "dist_tr": 15,
+      "d_te": 57,
+      "p_te": 0.2528388928317956,
+      "dist_te": 57,
+      "d_me": 727,
+      "p_me": 0.48950625180955715,
+      "dist_me": 712,
+      "n_te_in_tr": 664,
+      "p_te_in_tr": 2.9453513129879347,
+      "n_tr_in_te": 658,
+      "p_tr_in_te": 0.5223341509688584,
+      "dist_shared": 654,
+      "ov_attack": 1107,
+      "ov_normal": 215,
+      "ov_attack_te": 559,
+      "ov_normal_te": 105
+    },
+    "CS-C": {
+      "n_cols": 42,
+      "d_tr": 9,
+      "p_tr": 0.007144388083160677,
+      "dist_tr": 8,
+      "d_te": 3,
+      "p_te": 0.013307310149041874,
+      "dist_te": 3,
+      "d_me": 629,
+      "p_me": 0.4235205397361918,
+      "dist_me": 628,
+      "n_te_in_tr": 617,
+      "p_te_in_tr": 2.7368701206529455,
+      "n_tr_in_te": 617,
+      "p_tr_in_te": 0.4897874941455709,
+      "dist_shared": 617,
+      "ov_attack": 1060,
+      "ov_normal": 174,
+      "ov_attack_te": 530,
+      "ov_normal_te": 87
+    }
+  },
+  "task3": {
+    "n_rows": 148517,
+    "n_groups": 147790,
+    "n_distinct_hash": 147790,
+    "n_distinct_rows": 147790,
+    "size1": 147078,
+    "size2_10": 712,
+    "size_gt10": 0,
+    "median": 1.0,
+    "mean": 1.0049191420258474,
+    "max": 3,
+    "rows_in_multi": 1439,
+    "max_pct_of_test_target": 0.013307310149041874,
+    "top10": [
+      {
+        "size": 3,
+        "attack": 2,
+        "normal": 1,
+        "attack_names": "pod 2, normal 1"
+      },
+      {
+        "size": 3,
+        "attack": 2,
+        "normal": 1,
+        "attack_names": "land 2, normal 1"
+      },
+      {
+        "size": 3,
+        "attack": 1,
+        "normal": 2,
+        "attack_names": "normal 2, snmpgetattack 1"
+      },
+      {
+        "size": 3,
+        "attack": 2,
+        "normal": 1,
+        "attack_names": "land 2, normal 1"
+      },
+      {
+        "size": 3,
+        "attack": 1,
+        "normal": 2,
+        "attack_names": "normal 2, snmpgetattack 1"
+      },
+      {
+        "size": 3,
+        "attack": 1,
+        "normal": 2,
+        "attack_names": "normal 2, snmpgetattack 1"
+      },
+      {
+        "size": 3,
+        "attack": 1,
+        "normal": 2,
+        "attack_names": "normal 2, snmpgetattack 1"
+      },
+      {
+        "size": 3,
+        "attack": 1,
+        "normal": 2,
+        "attack_names": "normal 2, snmpgetattack 1"
+      },
+      {
+        "size": 3,
+        "attack": 2,
+        "normal": 1,
+        "attack_names": "land 2, normal 1"
+      },
+      {
+        "size": 3,
+        "attack": 3,
+        "normal": 0,
+        "attack_names": "nmap 1, ipsweep 1, portsweep 1"
+      }
+    ]
+  },
+  "task4": {
+    "seeds": [
+      {
+        "seed": 11,
+        "n_test": 22544,
+        "leaked": 208,
+        "pct": 0.9226401703335699,
+        "leaked_attack": 176,
+        "leaked_normal": 32,
+        "test_attack": 10848,
+        "test_normal": 11696
+      },
+      {
+        "seed": 22,
+        "n_test": 22544,
+        "leaked": 180,
+        "pct": 0.7984386089425124,
+        "leaked_attack": 139,
+        "leaked_normal": 41,
+        "test_attack": 10848,
+        "test_normal": 11696
+      },
+      {
+        "seed": 33,
+        "n_test": 22544,
+        "leaked": 210,
+        "pct": 0.9315117104329311,
+        "leaked_attack": 179,
+        "leaked_normal": 31,
+        "test_attack": 10848,
+        "test_normal": 11696
+      },
+      {
+        "seed": 44,
+        "n_test": 22544,
+        "leaked": 191,
+        "pct": 0.8472320794889993,
+        "leaked_attack": 147,
+        "leaked_normal": 44,
+        "test_attack": 10848,
+        "test_normal": 11696
+      },
+      {
+        "seed": 55,
+        "n_test": 22544,
+        "leaked": 211,
+        "pct": 0.9359474804826118,
+        "leaked_attack": 174,
+        "leaked_normal": 37,
+        "test_attack": 10848,
+        "test_normal": 11696
+      }
+    ],
+    "mean_pct": 0.8871540099361249,
+    "min_pct": 0.7984386089425124,
+    "max_pct": 0.9359474804826118,
+    "publisher_n": 664,
+    "publisher_pct": 2.9453513129879347,
+    "ratio_mean": 0.30120481927710846
+  },
+  "task5": {
+    "seed": 11,
+    "target_train": 125973,
+    "target_test": 22544,
+    "achieved_train": 125973,
+    "achieved_test": 22544,
+    "dev_train_abs": 0,
+    "dev_train_pct": 0.0,
+    "dev_test_abs": 0,
+    "dev_test_pct": 0.0,
+    "train_attack": 60615,
+    "train_normal": 65358,
+    "train_attack_pct": 48.117453740087164,
+    "test_attack": 10848,
+    "test_normal": 11696,
+    "test_attack_pct": 48.119233498935415,
+    "pool_attack_pct": 48.11772389692762,
+    "target_te_att": 10848,
+    "target_te_nor": 11696,
+    "leakage": 0,
+    "n_groups_in_test": 22433
+  },
+  "peak_rss_mb": 333.22265625,
+  "ru_maxrss_mb": 608.25
+}

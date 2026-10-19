@@ -1,0 +1,23 @@
+{
+  "stages": {
+    "preprocess": {
+      "wall_s": 0.6720823924988508,
+      "peak_rss_mb": 447.8359375,
+      "ru_maxrss_mb": 522.74609375
+    },
+    "fit": {
+      "wall_s": 13.189920333214104,
+      "peak_rss_mb": 564.6875,
+      "ru_maxrss_mb": 564.41015625
+    },
+    "predict": {
+      "wall_s": 0.29277904611080885,
+      "peak_rss_mb": 566.578125,
+      "ru_maxrss_mb": 566.41015625
+    }
+  },
+  "n_features": 69,
+  "accuracy": 0.8723461108681922,
+  "mcc": 0.7565169563479867,
+  "aborted_stage": null
+}

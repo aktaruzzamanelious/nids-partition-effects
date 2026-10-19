@@ -1,0 +1,174 @@
+{
+  "task3": {
+    "n_rows": 257673,
+    "n_groups": 153684,
+    "n_distinct_hash": 153684,
+    "n_distinct_rows": 153684,
+    "size1": 137972,
+    "size2_10": 11935,
+    "size_gt10": 3777,
+    "median": 1.0,
+    "mean": 1.6766416803310689,
+    "max": 483,
+    "rows_in_multi": 119701,
+    "top10": [
+      {
+        "gid": 47716,
+        "size": 483,
+        "attack": 483,
+        "normal": 0,
+        "attack_cat": "Reconnaissance 483"
+      },
+      {
+        "gid": 87416,
+        "size": 277,
+        "attack": 277,
+        "normal": 0,
+        "attack_cat": "Generic 277"
+      },
+      {
+        "gid": 86323,
+        "size": 243,
+        "attack": 243,
+        "normal": 0,
+        "attack_cat": "Generic 243"
+      },
+      {
+        "gid": 47229,
+        "size": 223,
+        "attack": 223,
+        "normal": 0,
+        "attack_cat": "Reconnaissance 223"
+      },
+      {
+        "gid": 56460,
+        "size": 188,
+        "attack": 188,
+        "normal": 0,
+        "attack_cat": "Exploits 76, DoS 66, Backdoor 10, Fuzzers 10, Analysis 10, Reconnaissance 10, Generic 6"
+      },
+      {
+        "gid": 82371,
+        "size": 178,
+        "attack": 0,
+        "normal": 178,
+        "attack_cat": "Normal 178"
+      },
+      {
+        "gid": 89575,
+        "size": 164,
+        "attack": 164,
+        "normal": 0,
+        "attack_cat": "Generic 164"
+      },
+      {
+        "gid": 47240,
+        "size": 160,
+        "attack": 160,
+        "normal": 0,
+        "attack_cat": "Reconnaissance 160"
+      },
+      {
+        "gid": 86890,
+        "size": 155,
+        "attack": 155,
+        "normal": 0,
+        "attack_cat": "Generic 155"
+      },
+      {
+        "gid": 87738,
+        "size": 148,
+        "attack": 148,
+        "normal": 0,
+        "attack_cat": "Generic 148"
+      }
+    ],
+    "secs": 0.059336185455322266
+  },
+  "task4": {
+    "seeds": [
+      {
+        "seed": 11,
+        "n_test": 82332,
+        "leaked": 36427,
+        "pct": 44.24403634066948,
+        "leaked_attack": 33487,
+        "leaked_normal": 2940,
+        "test_attack": 52617,
+        "test_normal": 29715
+      },
+      {
+        "seed": 22,
+        "n_test": 82332,
+        "leaked": 36495,
+        "pct": 44.32662877131614,
+        "leaked_attack": 33557,
+        "leaked_normal": 2938,
+        "test_attack": 52617,
+        "test_normal": 29715
+      },
+      {
+        "seed": 33,
+        "n_test": 82332,
+        "leaked": 36640,
+        "pct": 44.50274498372443,
+        "leaked_attack": 33661,
+        "leaked_normal": 2979,
+        "test_attack": 52617,
+        "test_normal": 29715
+      },
+      {
+        "seed": 44,
+        "n_test": 82332,
+        "leaked": 36287,
+        "pct": 44.07399310110285,
+        "leaked_attack": 33401,
+        "leaked_normal": 2886,
+        "test_attack": 52617,
+        "test_normal": 29715
+      },
+      {
+        "seed": 55,
+        "n_test": 82332,
+        "leaked": 36557,
+        "pct": 44.40193363455278,
+        "leaked_attack": 33563,
+        "leaked_normal": 2994,
+        "test_attack": 52617,
+        "test_normal": 29715
+      }
+    ],
+    "mean_pct": 44.30986736627314,
+    "min_pct": 44.07399310110285,
+    "max_pct": 44.50274498372443,
+    "publisher_pct": 10.3739,
+    "publisher_n": 8541,
+    "secs": 0.6140615940093994,
+    "ratio_mean": 4.271283448488335
+  },
+  "task5": {
+    "seed": 11,
+    "target_train": 175341,
+    "target_test": 82332,
+    "achieved_train": 175341,
+    "achieved_test": 82332,
+    "dev_train_abs": 0,
+    "dev_train_pct": 0.0,
+    "dev_test_abs": 0,
+    "dev_test_pct": 0.0,
+    "train_attack": 112056,
+    "train_normal": 63285,
+    "train_attack_pct": 63.907471726521464,
+    "test_attack": 52617,
+    "test_normal": 29715,
+    "test_attack_pct": 63.90832240198222,
+    "pool_attack_pct": 63.90774353541116,
+    "target_te_att": 52617,
+    "target_te_nor": 29715,
+    "leakage": 0,
+    "n_groups_in_test": 49518,
+    "secs": 0.1055593490600586
+  },
+  "peak_rss_mb": 369.87109375,
+  "ru_maxrss_mb": 426.5859375
+}

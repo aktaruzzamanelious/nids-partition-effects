@@ -1,0 +1,50 @@
+{
+  "dataset": "unsw",
+  "protocol": "C-naive",
+  "seed_or_repeat": 110,
+  "fold": null,
+  "n_train": 175341,
+  "n_test": 82332,
+  "train_attack_n": 112056,
+  "train_attack_rate": 0.6390747172652146,
+  "test_attack_n": 52617,
+  "test_attack_rate": 0.6390832240198222,
+  "train_category_counts": {
+    "Normal": 63285,
+    "Generic": 40147,
+    "Exploits": 30171,
+    "Fuzzers": 16539,
+    "DoS": 11171,
+    "Reconnaissance": 9489,
+    "Analysis": 1802,
+    "Backdoor": 1577,
+    "Shellcode": 1045,
+    "Worms": 115
+  },
+  "test_category_counts": {
+    "Normal": 29715,
+    "Generic": 18724,
+    "Exploits": 14354,
+    "Fuzzers": 7707,
+    "DoS": 5182,
+    "Reconnaissance": 4498,
+    "Analysis": 875,
+    "Backdoor": 752,
+    "Shellcode": 466,
+    "Worms": 59
+  },
+  "n_features_fitted": 65,
+  "dup_train_csa": 59603,
+  "dup_test_csa": 22671,
+  "dup_train_csb": 66614,
+  "dup_test_csb": 26836,
+  "dup_train_csc": 66354,
+  "dup_test_csc": 26732,
+  "leak_csb_rows": 36444,
+  "leak_csb_rate": 44.264684448331145,
+  "leak_csb_attack_rows": 33480,
+  "achieved_size_deviation": {
+    "train": 0,
+    "test": 0
+  }
+}
