@@ -1,5 +1,7 @@
 # Separating Partition, Leakage and Data Effects in Network Intrusion Detection Benchmarks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23476066.svg)](https://doi.org/10.5281/zenodo.23476066)
+
 **A Size-Matched Control for Classifier Rank Stability**
 
 Code, frozen results and verification files for my MSc thesis in Cyber Security at Daffodil International University, Bangladesh (October 2026). Supervisor: Prof. Dr. A.H.M Saifullah Sadi.
@@ -263,7 +265,7 @@ The data files are not in this repository. [`data/README.md`](data/README.md) gi
 
 ## How to cite
 
-GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff). In BibTeX:
+Version 1.0.0 is archived on Zenodo with the DOI [10.5281/zenodo.23476066](https://doi.org/10.5281/zenodo.23476066). GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff). In BibTeX:
 
 ```bibtex
 @software{elious2026nidspartition,
@@ -271,6 +273,7 @@ GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff). In 
   title   = {Separating Partition, Leakage and Data Effects in Network Intrusion Detection Benchmarks: Code and Frozen Results},
   year    = {2026},
   version = {1.0.0},
+  doi     = {10.5281/zenodo.23476066},
   url     = {https://github.com/aktaruzzamanelious/nids-partition-effects}
 }
 

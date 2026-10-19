@@ -14,6 +14,7 @@ authors:
 repository-code: "https://github.com/aktaruzzamanelious/nids-partition-effects"
 version: "1.0.0"
 date-released: "2026-10-19"
+doi: "10.5281/zenodo.23476066"
 keywords:
   - network intrusion detection
   - UNSW-NB15
